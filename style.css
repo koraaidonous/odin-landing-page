@@ -1,0 +1,188 @@
+body {
+    background: #1F2937;
+    margin: 0;
+    /* padding: 0; */
+}
+
+/* Part 1 */
+
+.header {
+    background: #1F2937;
+    padding: 16px 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content {
+    margin: 64px 0;
+    color: #f9faf8;
+    display: flex;
+    gap: 16px;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    flex-wrap: wrap;
+}
+
+.title button {
+    background-color: #3882F6;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    padding: 4px;
+    margin-top: 8px;
+    margin-right: 300px;
+}
+
+.content img {
+    width: 400px;
+    height: 210px;
+}
+
+/* part 2 (info section) */
+
+.info {
+    background: white;
+    text-align: center;
+    width: 200;
+    height: 400px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.container img {
+    width: 100px;
+    height: 100px;
+    border: 3px solid #3882F6;
+    border-radius: 8px;
+}
+.boxes {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    gap: 80px;
+}
+
+.box {
+    max-width: 100px;
+}
+
+/* part 3 (quote section) */
+
+.quote {
+    background: #e5e7eb;
+    width: 200;
+    height: 300px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+}
+
+.blurb {
+    flex: 0 1 600px;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.src {
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* part 4 (sign up) */
+
+
+.signup {
+    background: white;
+    width: 200;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action {
+    flex: 0 1 750px;
+    background: #3882F6;
+    color: white;
+    border-radius: 16px;
+    /* margin: 30px 16px; */
+    padding: 50px 100px;
+
+    /* display: flex;
+    flex-direction: column;
+    justify-content: flex-start; */
+}
+
+.lesgo {
+    display: flex;
+    gap: 250px;
+}
+
+.lesgo button {
+    background-color: #3882F6;
+    color: white;
+    font-weight: bold;
+    border: 3px solid white;
+    border-radius: 8px;
+    padding: 8px 20px;
+    /* margin-bottom: 8px; */
+
+}
+
+/* footer part 5 */
+.footer {
+    background: #1F2937;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.bold {
+    font-size: 48px;
+    font-weight: bolder;
+}
